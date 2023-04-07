@@ -1,0 +1,299 @@
+/* page-dao-tao
+ -----------------------------------------------------*/
+.mang-dao-tao .inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #1B4791;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mang-dao-tao .inner .info {
+  width: 60%;
+  padding: 0 7% 0;
+  text-align: justify;
+}
+.mang-dao-tao .inner .info .title {
+  margin: 0px 0px 2vw;
+}
+.mang-dao-tao .inner .info .title h3 {
+  text-align: center;
+}
+.mang-dao-tao .inner .info .title h3 span {
+  line-height: 1em;
+}
+.mang-dao-tao .inner .thumb {
+  width: 40%;
+  border-radius: 4vw;
+  overflow: hidden;
+}
+.mang-dao-tao .inner .thumb img {
+  width: 100%;
+}
+@media screen and (min-width: 768.1px) {
+  .mang-dao-tao .inner {
+    padding: 3.5% 0px 2.5%;
+  }
+  .mang-dao-tao .inner .info .title h3 span {
+    display: block;
+  }
+}
+@media screen and (max-width: 768.1px) {
+  .mang-dao-tao {
+    margin: 0px 0px 6vw;
+  }
+  .mang-dao-tao .inner {
+    display: block;
+    padding: 8vw 0px 6vw 0px;
+  }
+  .mang-dao-tao .inner .info {
+    padding: 0px;
+    margin: 0px 0px 4vw;
+    width: 100%;
+  }
+  .mang-dao-tao .inner .info .title {
+    margin: 0px 0px 4vw;
+  }
+  .mang-dao-tao .inner .info .title h3 {
+    font-size: -webkit-calc(6.5vw + 5px);
+    font-size: calc(6.5vw + 5px);
+    line-height: 1.2em;
+    text-align: left;
+  }
+  .mang-dao-tao .inner .thumb {
+    width: 100%;
+  }
+}
+
+.tab-dao-tao {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+}
+.tab-dao-tao li {
+  padding: 0% 1%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  width: 33.33%;
+}
+.tab-dao-tao li a {
+  width: 100%;
+  text-align: center;
+  padding: 10% 10%;
+  background: #D9D9D9;
+  display: block;
+  border-radius: 0.5vw;
+}
+.tab-dao-tao li a:hover {
+  color: #FFF;
+  background: #1B4791;
+}
+@media screen and (min-width: 768.1px) {
+  .tab-dao-tao {
+    width: 102%;
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-bottom: 10%;
+  }
+  .tab-dao-tao li a span {
+    display: block;
+  }
+}
+@media screen and (max-width: 768.1px) {
+  .tab-dao-tao {
+    display: block;
+    margin-bottom: 8vw;
+  }
+  .tab-dao-tao li {
+    width: 100%;
+    padding: 0;
+    margin: 0px 0px 2vw;
+  }
+  .tab-dao-tao li a {
+    padding: 2.5% 0.2%;
+    font-size: -webkit-calc(2.6vw + 2px);
+    font-size: calc(2.6vw + 2px);
+    border-radius: 2vw;
+  }
+}
+
+.chon-nhom-dao-tao {
+  display: none;
+  padding: 3% 0px 8vw 0px;
+}
+.chon-nhom-dao-tao .slider-giao-an {
+  background: #D9D9D9;
+  padding: 3% 0px 1% 6%;
+}
+@media screen and (min-width: 768.1px) {
+  .chon-nhom-dao-tao .slider-giao-an {
+    width: 114%;
+    margin-left: -7%;
+  }
+  .chon-nhom-dao-tao .title-top {
+    margin: 0px 0px 1vw;
+  }
+}
+@media screen and (max-width: 768.1px) {
+  .chon-nhom-dao-tao .title-top {
+    margin: 0px 0px 2vw;
+  }
+  .chon-nhom-dao-tao .slider-giao-an {
+    width: 111%;
+    margin-left: -6%;
+    padding: 7% 0px 8% 5%;
+  }
+}
+
+.blk-info-training {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 0px 8%;
+}
+.blk-info-training .thumb {
+  width: 40%;
+}
+.blk-info-training .thumb img {
+  width: 100%;
+}
+.blk-info-training .info {
+  width: 60%;
+  padding: 0px 0px 0px 3%;
+}
+.blk-info-training .info .title {
+  margin: 0px 0px 1vw;
+}
+.blk-info-training .info .title h3 {
+  margin: 0px;
+  line-height: 1.2em;
+}
+@media screen and (max-width: 768.1px) {
+  .blk-info-training {
+    display: block;
+  }
+  .blk-info-training .info {
+    width: 100%;
+  }
+  .blk-info-training .info .title {
+    margin: 0px 0px 2vw;
+  }
+  .blk-info-training .info .thumb-mb {
+    margin: 0px 0px 2vw;
+  }
+  .blk-info-training .info .thumb-mb img {
+    width: 100%;
+  }
+  .blk-info-training .thumb {
+    width: 100%;
+  }
+}
+
+.khoa-dao-tao {
+  background: #D9D9D9;
+  padding: 1% 0px 1% 0px;
+}
+@media screen and (max-width: 768.1px) {
+  .khoa-dao-tao {
+    padding: 6% 0px 5% 0px;
+    margin: 0px 0px 10vw;
+  }
+}
+@media screen and (min-width: 768.1px) {
+  .khoa-dao-tao .slider-giao-an .info .title h3 span {
+    display: block;
+  }
+}
+
+.train-detail {
+  padding: 2% 0px 4%;
+}
+.train-detail .title {
+  text-align: center;
+}
+.train-detail .title h3 {
+  line-height: 1.1em;
+  margin: 0px 0px 1vw;
+}
+.train-detail .thumb {
+  margin: 0px 0px 3%;
+}
+.train-detail .thumb img {
+  width: 100%;
+}
+.train-detail .info .tab-trainning-detail {
+  margin: 0px 0px 2%;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.train-detail .info .tab-trainning-detail li {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.train-detail .info .tab-trainning-detail li a {
+  border: 1px solid #1B4791;
+  border-left: none;
+  padding: 0.8vw 1vw 1vw 1vw;
+  display: block;
+  text-align: center;
+}
+.train-detail .info .tab-trainning-detail li a.active {
+  background: #1B4791;
+  color: #FFF;
+}
+.train-detail .info .tab-trainning-detail li a:hover {
+  background: #1B4791;
+  color: #FFF;
+}
+.train-detail .info .tab-trainning-detail li:last-child a {
+  border-right: 0px;
+}
+@media screen and (min-width: 768.1px) {
+  .train-detail .title h3 span {
+    display: block;
+  }
+}
+@media screen and (max-width: 768.1px) {
+  .train-detail {
+    padding: 3% 0px 6%;
+  }
+  .train-detail .info .tab-trainning-detail {
+    margin: 0px 0px 4vw;
+  }
+  .train-detail .info .tab-trainning-detail li {
+    width: 100%;
+  }
+  .train-detail .info .tab-trainning-detail li a {
+    border: 1px solid #1B4791;
+    border-bottom: none;
+    font-size: -webkit-calc(2.7vw + 3px);
+    font-size: calc(2.7vw + 3px);
+    padding: 1.2vw 1vw 1.5vw 1vw;
+  }
+  .train-detail .info .tab-trainning-detail li:last-child a {
+    border: 1px solid #1B4791;
+  }
+}
