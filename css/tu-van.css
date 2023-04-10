@@ -136,6 +136,9 @@
   width: 23.33%;
   padding: 0px 0.5%;
   cursor: pointer;
+  -webkit-transition-duration: 0.2s;
+       -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
 }
 .du-an-noi-bat .list .intem-style .inner {
   border: 1px solid #1B4791;
@@ -164,26 +167,24 @@
   .du-an-noi-bat .list .intem-style.item-active {
     width: 30%;
   }
-  .du-an-noi-bat .list .intem-style.item-active .inner {
-    background: #1B4791;
-  }
-  .du-an-noi-bat .list .intem-style.item-active .info .title h3 {
-    color: #FFC82C;
-    font-size: -webkit-calc(1.4vw + 2px);
-    font-size: calc(1.4vw + 2px);
-  }
-  .du-an-noi-bat .list .intem-style.item-active .info .title h3:before {
-    background: #FFF;
-  }
-  .du-an-noi-bat .list .intem-style.item-active .info .text {
-    color: #FFF;
-  }
-  .du-an-noi-bat .list .intem-style.item-active .more {
-    color: #FFF;
-  }
   .du-an-noi-bat .list .intem-style .info .title h3 {
     font-size: -webkit-calc(1.2vw + 1px);
     font-size: calc(1.2vw + 1px);
+  }
+  .du-an-noi-bat .list .intem-style:hover .inner {
+    background: #1B4791;
+  }
+  .du-an-noi-bat .list .intem-style:hover .info .title h3 {
+    color: #FFC82C;
+  }
+  .du-an-noi-bat .list .intem-style:hover .info .title h3:before {
+    background: #FFF;
+  }
+  .du-an-noi-bat .list .intem-style:hover .info .text {
+    color: #FFF;
+  }
+  .du-an-noi-bat .list .intem-style:hover .more {
+    color: #FFF;
   }
 }
 @media screen and (max-width: 768.1px) {
