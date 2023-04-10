@@ -196,6 +196,17 @@
   }
 }
 
+.font-size-128 {
+  font-size: -webkit-calc(6.5vw + 2px);
+  font-size: calc(6.5vw + 2px);
+}
+@media screen and (max-width: 768px) {
+  .font-size-128 {
+    font-size: -webkit-calc(7.9vw + 5px);
+    font-size: calc(7.9vw + 5px);
+  }
+}
+
 .font-size-18 {
   font-size: -webkit-calc(2.2vw + 5px);
   font-size: calc(2.2vw + 5px);
