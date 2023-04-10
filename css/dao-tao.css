@@ -97,6 +97,10 @@
   display: block;
   border-radius: 0.5vw;
 }
+.tab-dao-tao li a.active {
+  color: #FFF;
+  background: #1B4791;
+}
 .tab-dao-tao li a:hover {
   color: #FFF;
   background: #1B4791;
@@ -131,7 +135,6 @@
 }
 
 .chon-nhom-dao-tao {
-  display: none;
   padding: 3% 0px 8vw 0px;
 }
 .chon-nhom-dao-tao .slider-giao-an {
@@ -224,17 +227,19 @@
 }
 
 .train-detail {
-  padding: 2% 0px 4%;
+  padding: 4% 0px 4%;
 }
 .train-detail .title {
   text-align: center;
+  margin: 0px 0px 3vw;
 }
 .train-detail .title h3 {
   line-height: 1.1em;
-  margin: 0px 0px 1vw;
 }
 .train-detail .thumb {
   margin: 0px 0px 3%;
+  border-radius: 3vw;
+  overflow: hidden;
 }
 .train-detail .thumb img {
   width: 100%;
@@ -295,5 +300,17 @@
   }
   .train-detail .info .tab-trainning-detail li:last-child a {
     border: 1px solid #1B4791;
+  }
+  .train-detail .thumb {
+    border-radius: 3.5vw;
+  }
+}
+
+@media screen and (min-width: 768.1px) {
+  .main-slider.banner-right .info {
+    left: auto;
+    right: 10%;
+    top: auto;
+    bottom: 10%;
   }
 }

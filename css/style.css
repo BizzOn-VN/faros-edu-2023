@@ -2317,6 +2317,10 @@ input[type=submit] {
   display: block;
   border-radius: 0.5vw;
 }
+.tab-dao-tao li a.active {
+  color: #FFF;
+  background: #1B4791;
+}
 .tab-dao-tao li a:hover {
   color: #FFF;
   background: #1B4791;
@@ -2351,7 +2355,6 @@ input[type=submit] {
 }
 
 .chon-nhom-dao-tao {
-  display: none;
   padding: 3% 0px 8vw 0px;
 }
 .chon-nhom-dao-tao .slider-giao-an {
@@ -2444,17 +2447,19 @@ input[type=submit] {
 }
 
 .train-detail {
-  padding: 2% 0px 4%;
+  padding: 4% 0px 4%;
 }
 .train-detail .title {
   text-align: center;
+  margin: 0px 0px 3vw;
 }
 .train-detail .title h3 {
   line-height: 1.1em;
-  margin: 0px 0px 1vw;
 }
 .train-detail .thumb {
   margin: 0px 0px 3%;
+  border-radius: 3vw;
+  overflow: hidden;
 }
 .train-detail .thumb img {
   width: 100%;
@@ -2515,6 +2520,18 @@ input[type=submit] {
   }
   .train-detail .info .tab-trainning-detail li:last-child a {
     border: 1px solid #1B4791;
+  }
+  .train-detail .thumb {
+    border-radius: 3.5vw;
+  }
+}
+
+@media screen and (min-width: 768.1px) {
+  .main-slider.banner-right .info {
+    left: auto;
+    right: 10%;
+    top: auto;
+    bottom: 10%;
   }
 }
 
@@ -2581,6 +2598,11 @@ input[type=submit] {
   }
 }
 
+@media screen and (min-width: 768.1px) {
+  .blk-phan-nhom {
+    padding: 2% 0px 0px;
+  }
+}
 .blk-phan-nhom .caption {
   margin: 0px 0px 1.5vw;
   text-align: center;
@@ -2588,6 +2610,9 @@ input[type=submit] {
 @media screen and (max-width: 768.1px) {
   .blk-phan-nhom {
     margin-bottom: 7vw;
+  }
+  .blk-phan-nhom .caption {
+    margin: 0px 0px 2vw;
   }
 }
 
@@ -2643,6 +2668,8 @@ input[type=submit] {
   .smd-tab .title {
     text-align: center;
     margin: 0px 0px 3vw;
+    font-size: -webkit-calc(3.5vw + 5px);
+    font-size: calc(3.5vw + 5px);
   }
   .smd-tab .nav-pills {
     width: -webkit-calc(100% + 2.4vw);

@@ -61,6 +61,11 @@
   }
 }
 
+@media screen and (min-width: 768.1px) {
+  .blk-phan-nhom {
+    padding: 2% 0px 0px;
+  }
+}
 .blk-phan-nhom .caption {
   margin: 0px 0px 1.5vw;
   text-align: center;
@@ -68,6 +73,9 @@
 @media screen and (max-width: 768.1px) {
   .blk-phan-nhom {
     margin-bottom: 7vw;
+  }
+  .blk-phan-nhom .caption {
+    margin: 0px 0px 2vw;
   }
 }
 
@@ -123,6 +131,8 @@
   .smd-tab .title {
     text-align: center;
     margin: 0px 0px 3vw;
+    font-size: -webkit-calc(3.5vw + 5px);
+    font-size: calc(3.5vw + 5px);
   }
   .smd-tab .nav-pills {
     width: -webkit-calc(100% + 2.4vw);
