@@ -397,6 +397,9 @@
   .news-more .ctn .item.slick-active .info .more {
     color: #1B4791;
   }
+  .news-more .ctn .item.slick-active .text a {
+    color: #1b4792;
+  }
   .news-more .ctn .slick-next {
     right: -9% !important;
   }
@@ -447,6 +450,8 @@
     color: #1B4791 !important;
     text-decoration: underline !important;
     border: none !important;
+    padding: 0px !important;
+    float: right !important;
   }
 }
 
@@ -616,6 +621,9 @@
   display: block;
 }
 @media screen and (max-width: 768.1px) {
+  .slider-about-us {
+    margin: 0px 0px 5vw;
+  }
   .slider-about-us .slider-mb {
     visibility: visible;
     position: relative;
