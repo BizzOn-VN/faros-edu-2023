@@ -16,6 +16,11 @@
 
 })( jQuery );
 
+ $(".smd-roll").click(function(){
+        $('html,body').animate({
+        scrollTop: $(".contact-bar").offset().top 
+      }, 'slow');
+  });
 
 $('.slider-giao-an .owl-carousel').owlCarousel({
     margin:0,
@@ -146,6 +151,32 @@ $('.blk-slider-show-prj-1 .slider').slick({
     }
     ] 
 });
+
+$('.slider-doi-tac .slider').slick({
+  slidesToShow: 4,
+   dots: true,
+  responsive: [
+    {
+      breakpoint: 768.1,
+      settings: {
+        dots: true,
+        centerPadding: '0%',
+        slidesToShow: 1,
+        centerMode: true
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        dots: true,
+         centerPadding: '10%',
+        slidesToShow: 1,
+        centerMode: true
+      }
+    }
+    ] 
+});
+
 $('.blk-slider-show-prj-2 .slider').slick({
   centerMode: true,
   centerPadding: '33%',

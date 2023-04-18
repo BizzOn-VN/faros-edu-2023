@@ -1,5 +1,8 @@
 /* header
  -----------------------------------------------------*/
+.banner-header {
+  position: relative;
+}
 .banner-header img {
   width: 100%;
   cursor: pointer;
