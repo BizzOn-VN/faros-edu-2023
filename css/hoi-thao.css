@@ -472,6 +472,10 @@
   .tin-tuc-detail .thumb {
     margin: 0px 0px 3vw;
   }
+  .tin-tuc-detail .info {
+    font-size: -webkit-calc(2.6vw + 4px);
+    font-size: calc(2.6vw + 4px);
+  }
 }
 
 .slider-about-us .slider-desktop {
