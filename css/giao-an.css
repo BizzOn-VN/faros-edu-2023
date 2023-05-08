@@ -611,3 +611,9 @@
     font-size: calc(2.6vw + 4px);
   }
 }
+
+@media screen and (min-width: 768.1px) {
+  .page-giao-an-detail .blk-slider-show-prj {
+    background: #F9F9F9;
+  }
+}

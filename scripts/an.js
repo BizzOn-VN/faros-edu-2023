@@ -231,6 +231,35 @@ $('.blk-slider-show-prj-2 .slider').slick({
     }
     ] 
 });
+$('.blk-slider-show-prj-3 .slider').slick({
+  centerMode: true,
+  centerPadding: '33%',
+  slidesToShow: 1,
+  draggable: true,
+   dots: true,
+   loop:true,
+  responsive: [
+    {
+      breakpoint: 768.1,
+      settings: {
+        dots: true,
+        slidesToShow: 1,
+        centerMode: true,
+        centerPadding: '10%'
+        
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        dots: true,
+        slidesToShow: 1,
+        centerMode: true,
+        centerPadding: '10%'
+      }
+    }
+    ] 
+});
 
 
 $('.slider-ga .slider').slick({
@@ -311,10 +340,22 @@ function css_slick_dots_blk_slider_show_prj_2(){
 	}
 	
 }
+function css_slick_dots_blk_slider_show_prj_3(){
+  if($(window).width()<768){
+    if($(".page-main").find(".blk-slider-show-prj")){
+      var distance= $(".blk-slider-show-prj-3 .slick-dots").offset().left -$(window).width()/7;
+      $(".blk-slider-show-prj").find(".slick-next").css("right", distance);
+      $(".blk-slider-show-prj").find(".slick-prev").css("left", distance);
+    }
+    
+  }
+  
+}
 
 css_slick_dots();
 css_slick_dots_blk_slider_show_prj_1();
 css_slick_dots_blk_slider_show_prj_2();
+css_slick_dots_blk_slider_show_prj_3();
 
 function css_smd_slider(){
 	var height_title=$(".smd-slider .info .title").outerHeight()/2;
@@ -372,6 +413,7 @@ jQuery(document).on("ready",function () {
 	css_slick_dots();
 	css_slick_dots_blk_slider_show_prj_1();
 	css_slick_dots_blk_slider_show_prj_2();
+  css_slick_dots_blk_slider_show_prj_3();
 	css_slick_nav();
 });
 window.onload = function(){ 
@@ -379,6 +421,7 @@ window.onload = function(){
     css_slick_dots();
     css_slick_dots_blk_slider_show_prj_1();
     css_slick_dots_blk_slider_show_prj_2();
+    css_slick_dots_blk_slider_show_prj_3();
     css_slick_nav();
 }
  window.onresize = function() {
@@ -387,6 +430,7 @@ window.onload = function(){
  	css_slick_dots();
  	css_slick_dots_blk_slider_show_prj_1();
  	css_slick_dots_blk_slider_show_prj_2();
+  css_slick_dots_blk_slider_show_prj_3();
  	css_slick_nav();
 
 }
@@ -396,5 +440,6 @@ window.addEventListener("resize", function(event) {
  	css_slick_dots();
  	css_slick_dots_blk_slider_show_prj_1();
  	css_slick_dots_blk_slider_show_prj_2();
+  css_slick_dots_blk_slider_show_prj_3();
  	css_slick_nav();
 })

@@ -1306,7 +1306,7 @@ input[type=submit] {
   padding: 3.5% 5%;
 }
 .smd-slider-stage .item .inner-item .info .title h3 {
-  line-height: 1em;
+  line-height: 1.2em;
 }
 .smd-slider-stage .item .inner-item .info .title h3 span {
   display: block;
@@ -1574,7 +1574,7 @@ input[type=submit] {
     margin-bottom: 10vw;
   }
   .blk-slider-show-prj .slider .item {
-    padding: 4vw 3.5vw;
+    padding: 11vw 3.5vw;
   }
   .blk-slider-show-prj .slider .item.slick-active .inner-item {
     border: none;
@@ -3239,6 +3239,12 @@ input[type=submit] {
   }
 }
 
+@media screen and (min-width: 768.1px) {
+  .page-giao-an-detail .blk-slider-show-prj {
+    background: #F9F9F9;
+  }
+}
+
 /* page-tu-van
  -----------------------------------------------------*/
 .mo-hinh-tu-van {
@@ -3298,6 +3304,9 @@ input[type=submit] {
   }
 }
 
+.goi-giai-phap .caption {
+  margin: 0px 0px 3vw;
+}
 .goi-giai-phap .item {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3338,6 +3347,9 @@ input[type=submit] {
   width: 100%;
 }
 @media screen and (max-width: 768.1px) {
+  .goi-giai-phap .caption {
+    margin: 0px 0px 6vw;
+  }
   .goi-giai-phap .item {
     display: block;
     border-radius: 4vw;
@@ -4303,5 +4315,58 @@ input[type=submit] {
     font-size: -webkit-calc(2.8vw + 4px);
     font-size: calc(2.8vw + 4px);
     font-family: "MyriadPro-Bold", sans-serif;
+  }
+}
+
+.blk-story {
+  margin: 3vw 0 2vw;
+}
+@media screen and (max-width: 768.1px) {
+  .blk-story {
+    margin: 8vw 0 7vw;
+  }
+  .blk-story .title {
+    margin: 0px 0px 5vw;
+  }
+}
+
+.tn-sm {
+  margin: 0px 0px 6vw;
+}
+.tn-sm .inner {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: top;
+  -webkit-align-items: top;
+      -ms-flex-align: top;
+          align-items: top;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.tn-sm .inner .item {
+  width: 48%;
+  text-align: center;
+  border: 1px solid #2F2F2F;
+  padding: 2vw 2vw;
+}
+@media screen and (max-width: 768.1px) {
+  .tn-sm .inner {
+    display: block;
+  }
+  .tn-sm .inner .item {
+    display: block;
+    width: 100%;
+    margin: 0px 0px 8vw;
+    padding: 6vw 6vw 4vw 6vw;
+  }
+  .tn-sm .inner .item .title {
+    font-size: -webkit-calc(6vw + 3px);
+    font-size: calc(6vw + 3px);
+    margin: 0px 0px 4vw;
   }
 }

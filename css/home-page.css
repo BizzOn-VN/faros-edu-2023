@@ -180,7 +180,7 @@
   padding: 3.5% 5%;
 }
 .smd-slider-stage .item .inner-item .info .title h3 {
-  line-height: 1em;
+  line-height: 1.2em;
 }
 .smd-slider-stage .item .inner-item .info .title h3 span {
   display: block;
@@ -448,7 +448,7 @@
     margin-bottom: 10vw;
   }
   .blk-slider-show-prj .slider .item {
-    padding: 4vw 3.5vw;
+    padding: 11vw 3.5vw;
   }
   .blk-slider-show-prj .slider .item.slick-active .inner-item {
     border: none;

@@ -57,6 +57,9 @@
   }
 }
 
+.goi-giai-phap .caption {
+  margin: 0px 0px 3vw;
+}
 .goi-giai-phap .item {
   display: -webkit-box;
   display: -webkit-flex;
@@ -97,6 +100,9 @@
   width: 100%;
 }
 @media screen and (max-width: 768.1px) {
+  .goi-giai-phap .caption {
+    margin: 0px 0px 6vw;
+  }
   .goi-giai-phap .item {
     display: block;
     border-radius: 4vw;
