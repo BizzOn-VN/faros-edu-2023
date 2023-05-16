@@ -2625,6 +2625,63 @@ input[type=submit] {
   }
 }
 
+.blk-intro-training {
+  padding: 5vw 0px 1vw;
+}
+.blk-intro-training .title {
+  margin: 0px 0px 2.7vw;
+  line-height: 1em;
+}
+.blk-intro-training .title span {
+  display: block;
+}
+@media screen and (max-width: 768.1px) {
+  .blk-intro-training {
+    padding: 8vw 0px 4vw;
+  }
+  .blk-intro-training .title {
+    margin: 0px 0px 4.7vw;
+  }
+}
+
+.smd-dt {
+  border: 1px solid #FFF;
+  border-radius: 1rem;
+  padding: 1.5vw;
+  margin: 0px 0px 2vw;
+}
+.smd-dt span.hl {
+  display: block;
+  position: relative;
+  padding-left: 1.6vw;
+}
+.smd-dt span.hl:before {
+  content: "";
+  width: 0.2vw;
+  height: 0.2vw;
+  display: block;
+  border-radius: 50%;
+  background: #FFF;
+  left: 0.6vw;
+  top: 0.6vw;
+  position: absolute;
+}
+@media screen and (max-width: 768.1px) {
+  .smd-dt {
+    padding: 3.5vw 3vw;
+    margin: 0px 0px 4vw;
+  }
+  .smd-dt span.hl {
+    padding-left: 3.8vw;
+  }
+  .smd-dt span.hl:before {
+    width: 0.6vw;
+    height: 0.6vw;
+    left: 1.8vw;
+    top: 1.7vw;
+  }
+}
+
 /* page-giao-an
  -----------------------------------------------------*/
 .blk-gioi-thieu {
@@ -3599,6 +3656,67 @@ input[type=submit] {
   .more-gr {
     padding: 0.5vw 6vw 1.8vw 6vw;
     margin: 8vw auto 0 auto;
+  }
+}
+
+.info-tu-van {
+  margin: 2.5rem 0px 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.info-tu-van .content {
+  width: 48%;
+  text-align: justify;
+  line-height: 1.2em;
+}
+.info-tu-van .content span.hl {
+  display: block;
+  position: relative;
+  padding-left: 1.6vw;
+}
+.info-tu-van .content span.hl:before {
+  content: "";
+  width: 0.2vw;
+  height: 0.2vw;
+  display: block;
+  border-radius: 50%;
+  background: #FFF;
+  left: 0.6vw;
+  top: 0.6vw;
+  position: absolute;
+}
+.info-tu-van .thumb {
+  width: 48%;
+}
+.info-tu-van .thumb img {
+  width: 100%;
+  border-radius: 2rem;
+}
+@media screen and (max-width: 768.1px) {
+  .info-tu-van {
+    display: block;
+  }
+  .info-tu-van .content {
+    width: 100%;
+    margin: 0px 0px 2rem;
+  }
+  .info-tu-van .content span.hl {
+    padding-left: 3.8vw;
+  }
+  .info-tu-van .content span.hl:before {
+    width: 0.6vw;
+    height: 0.6vw;
+    left: 1.8vw;
+    top: 1.2vw;
+  }
+  .info-tu-van .thumb {
+    width: 100%;
   }
 }
 
