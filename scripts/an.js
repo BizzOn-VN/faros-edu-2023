@@ -318,38 +318,40 @@ function css_slick_dots(){
     $(this).find(".slick-prev").css("left", distance_hl);
   });
 }
-
 function css_slick_dots_blk_slider_show_prj_1(){
-	if($(window).width()<768){
-		if($(".page-main").find(".blk-slider-show-prj-1").hasClass(".smd-control-sl")){
-			var distance= $(".blk-slider-show-prj-1 .slick-dots").offset().left -$(window).width()/7;
-			$(".blk-slider-show-prj-1").find(".slick-next").css("right", distance);
-			$(".blk-slider-show-prj-1").find(".slick-prev").css("left", distance);
-		}
-		
+  if($(".page-main").find(".blk-slider-show-prj").hasClass("blk-slider-show-prj-1")){
+  	if($(window).width()<768){
+  		if($(".page-main").find(".blk-slider-show-prj-1")){
+  			var distance= $(".blk-slider-show-prj-1 .slick-dots").offset().left -$(window).width()/7;
+  			$(".blk-slider-show-prj-1").find(".slick-next").css("right", distance);
+  			$(".blk-slider-show-prj-1").find(".slick-prev").css("left", distance);
+  		}
+  		
+  	}
 	}
-	
 }
 function css_slick_dots_blk_slider_show_prj_2(){
-	if($(window).width()<768){
-		if($(".page-main").find(".blk-slider-show-prj-1").hasClass(".smd-control-sl")){
-			var distance= $(".blk-slider-show-prj-1 .slick-dots").offset().left -$(window).width()/7;
-			$(".blk-slider-show-prj-2").find(".slick-next").css("right", distance);
-			$(".blk-slider-show-prj-2").find(".slick-prev").css("left", distance);
-		}	
+  if($(document).find(".blk-slider-show-prj").hasClass("blk-slider-show-prj-2")){
+  	if($(window).width()<768){
+  		if($(".page-main").find(".blk-slider-show-prj-1")){
+  			var distance= $(".blk-slider-show-prj-1 .slick-dots").offset().left -$(window).width()/7;
+  			$(".blk-slider-show-prj-2").find(".slick-next").css("right", distance);
+  			$(".blk-slider-show-prj-2").find(".slick-prev").css("left", distance);
+  		}	
+  	}
 	}
-	
 }
 function css_slick_dots_blk_slider_show_prj_3(){
-  if($(window).width()<768){
-    if($(".page-main").find(".blk-slider-show-prj")){
-      var distance= $(".blk-slider-show-prj-3 .slick-dots").offset().left -$(window).width()/7;
-      $(".blk-slider-show-prj").find(".slick-next").css("right", distance);
-      $(".blk-slider-show-prj").find(".slick-prev").css("left", distance);
+  if($(document).find(".blk-slider-show-prj").hasClass("blk-slider-show-prj-3")){
+    if($(window).width()<768){
+      if($(".page-main").find(".blk-slider-show-prj")){
+        var distance= $(".blk-slider-show-prj-3 .slick-dots").offset().left -$(window).width()/7;
+        $(".blk-slider-show-prj").find(".slick-next").css("right", distance);
+        $(".blk-slider-show-prj").find(".slick-prev").css("left", distance);
+      }
+      
     }
-    
   }
-  
 }
 
 css_slick_dots();
