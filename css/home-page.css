@@ -84,6 +84,9 @@
   -webkit-box-orient: vertical;
 }
 @media screen and (max-width: 768.1px) {
+  .giai-phap {
+    margin: 0px 0px 2rem;
+  }
   .giai-phap .col-gr .col-md-6 {
     margin-bottom: 4vw;
   }
@@ -945,4 +948,91 @@
   display: block;
   width: 100%;
   height: auto;
+}
+
+.home_three_col {
+  padding: 3vw 0px 1vw;
+}
+.home_three_col .caption {
+  margin: 0px 0px 1.5rem;
+}
+.home_three_col .list {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-self: stretch;
+      -ms-flex-item-align: stretch;
+          align-self: stretch;
+  margin-right: -1.5vw;
+  margin-left: -1.5vw;
+}
+.home_three_col .list .item {
+  padding: 0px 1.5vw;
+  margin: 0px 0px 3vw;
+  width: 33.33%;
+}
+.home_three_col .list .item .inner {
+  border: 2px solid #1B4791;
+  border-radius: 1rem;
+  overflow: hidden;
+  height: 100%;
+}
+.home_three_col .list .item .inner:hover {
+  -webkit-transition-duration: 0.5s;
+       -o-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  background: #1B4791;
+}
+.home_three_col .list .item .inner:hover .content h3 {
+  color: #FFC82C;
+}
+.home_three_col .list .item .inner:hover .content .name {
+  color: #FFF;
+}
+.home_three_col .list .item .thumb img {
+  width: 100%;
+}
+.home_three_col .list .item .content {
+  text-align: center;
+  padding: 0.8rem 0.8rem 1.5rem 0.8rem;
+}
+.home_three_col .list .item .content h3 {
+  line-height: 1.4em;
+}
+.home_three_col .list .item .content .name {
+  display: block;
+  margin: 0px 0px 0.9rem;
+  font-family: "SVN-Gotham";
+  color: #333333;
+}
+@media screen and (max-width: 768.1px) {
+  .home_three_col {
+    padding: 3rem 0px 1rem;
+    margin: 0px 0px 1.2rem;
+  }
+  .home_three_col .caption {
+    font-size: -webkit-calc(4.2vw + 5px);
+    font-size: calc(4.2vw + 5px);
+    margin: 0px 0px 2rem;
+    text-align: center;
+  }
+  .home_three_col .list .item {
+    width: 100%;
+    margin: 0px 0px 7vw;
+  }
+  .home_three_col .list .item .content {
+    padding: 0.8rem 0.8rem 1rem 0.8rem;
+  }
+  .home_three_col .list .item .content h3 {
+    font-size: -webkit-calc(3vw + 5px);
+    font-size: calc(3vw + 5px);
+  }
+  .home_three_col .list .item .content .name {
+    font-size: -webkit-calc(2.2vw + 5px);
+    font-size: calc(2.2vw + 5px);
+  }
 }
